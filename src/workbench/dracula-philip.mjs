@@ -117,31 +117,54 @@ export default (syntax) => ({
       // ---------------------------
       // Editor Groups and Tabs
       // ---------------------------
+      'editorGroup.dropBackground': '#44475a70',
       'editorGroup.emptyBackground': '#5f6b6d33',
-      'editorGroup.border': '#0f1415',
+      'editorGroup.focusedEmptyBorder': null,
+      'editorGroup.border': '#444444',
       'editorGroup.dropBackground': '#5f6b6d33',
+      'editorGroup.dropIntoPromptBackground': '#21222c',
+		'editorGroup.dropIntoPromptBorder': null,
+		'editorGroup.dropIntoPromptForeground': '#f8f8f2',
+		
       // ---------------------------
       // Editor Group Header
       // ---------------------------
-      'editorGroupHeader.noTabsBackground': '#062e32',
-      'editorGroupHeader.tabsBackground': '#062e32',
-      'editorGroupHeader.tabsBorder': '#062e32',
+      'editorGroupHeader.noTabsBackground': '#282a36',
+      'editorGroupHeader.tabsBackground': '#21222c',
+      'editorGroupHeader.tabsBorder': '#21222c',
+      'editorGroupHeader.border': null,
+		'editorGroupHeader.tabsBorder': null,
       // ---------------------------
       // Editor Tabs
       // ---------------------------
-      'tab.activeBackground': '#052529',
+      'tab.activeBackground': '#282a36',
+      'tab.activeBorder': null,
       'tab.unfocusedActiveBackground': '#0e1e20',
-      'tab.activeForeground': '#40d4e7',
-      'tab.border': '#0f1415',
-      'tab.inactiveBackground': '#062e32',
-      'tab.inactiveForeground': '#87a7ab',
-      'tab.unfocusedActiveForeground': '#87a7ab',
-      'tab.unfocusedInactiveForeground': '#87a7ab',
-      'tab.activeBorderTop': '#40d4e7',
-      'tab.activeModifiedBorder': '#49e9a6',
+		'tab.activeBorderTop': '#ff79c680',
+		'tab.activeForeground': '#f8f8f2',
+		'tab.border': '#191a21',
+      'tab.activeModifiedBorder': '#3399cc',
+      'tab.unfocusedActiveModifiedBorder': '#3399cc80',
+		'tab.inactiveBackground': '#21222c',
+		'tab.inactiveForeground': '#6272a4',
+      'tab.unfocusedActiveForeground': '#f8f8f280',
+      'tab.unfocusedActiveBackground': '#282a36',
+      'tab.unfocusedInactiveForeground': '#6272a480',
+      'tab.unfocusedInactiveBackground': '#21222c',
+		'tab.unfocusedInactiveModifiedBorder': '#3399cc40',
       'tab.activeBorder': '#052529',
       'tab.unfocusedActiveBorder': '#052529',
+      'tab.unfocusedActiveBorderTop': '#ff79c640',
       'tab.unfocusedHoverBackground': '#169fb121',
+		'tab.unfocusedHoverBorder': null,
+		'tab.unfocusedHoverForeground': null,
+      'tab.unfocusedInactiveBackground': '#21222c',
+		'tab.unfocusedInactiveModifiedBorder': '#3399cc40',
+		'tab.hoverBackground': null,
+		'tab.hoverBorder': null,
+		'tab.hoverForeground': null,
+		'tab.inactiveModifiedBorder': '#3399cc80',
+		'tab.lastPinnedBorder': '#585858',
       // ---------------------------
       // Text Colors
       // ---------------------------
